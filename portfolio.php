@@ -1,0 +1,322 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio - SAADI M'henna</title>
+    <link rel="stylesheet" href="portfolio.css" >
+</head>
+
+
+<body>
+
+    <!-- Navbar -->
+    <nav class="navbar">
+        <a href="#about">Accueil</a>
+        <a href="#experiences">Expériences</a>
+        <a href="#competences">Compétences</a>
+        <a href="#projets">Projets</a>
+        <a href="#veille">Veille Technologique</a>
+        <a href="#contact">Contact</a>
+    </nav>
+
+    <main>
+
+    <!-- About Section -->
+    
+    <section id="about" class="hero">
+        <div class="banner">
+            <p class="kicker">BTS SIO • SLAM</p>
+            <h1 class="q">SAADI M’henna</h1>
+            <p class="text">Développeur orienté web & applications — découvrez mes projets, mes expériences et ma veille technologique.</p>
+
+            <div class="hero-actions">
+                <a href="msv.pdf.pdf" target="_blank" class="btn-cv" rel="noopener">Voir mon CV</a>
+                <a href="#projets" class="btn-secondary">Voir mes projets</a>
+                <a href="#veille" class="btn-secondary">Ma veille techno</a>
+            </div>
+
+            <div class="hero-highlights" aria-label="Points clés">
+                <div class="highlight">
+                    <span class="highlight-label">Spécialité</span>
+                    <span class="highlight-value">Dév. Web / Full‑Stack</span>
+                </div>
+                <div class="highlight">
+                    <span class="highlight-label">Stack</span>
+                    <span class="highlight-value">PHP • JS • SQL • C#</span>
+                </div>
+                <div class="highlight">
+                    <span class="highlight-label">Objectif</span>
+                    <span class="highlight-value">Alternance / Junior</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    
+        <!-- Expériences Professionnelles -->
+<section id="experiences">
+    <div class="container">
+        <h2 class="section-title">Expériences Professionnelles</h2>
+        
+        <div class="experience-grid">
+            <article class="experience-card">
+                <div class="experience-header">
+                    <div>
+                        <p class="xp-role">Développeur Web — Stage</p>
+                        <h3>Garage Full Service</h3>
+                    </div>
+                    <div class="xp-duration">2 mois • 2024</div>
+                </div>
+                <p class="xp-context">Site vitrine responsive présentant les services du garage, prise de contact et mise en avant des réalisations.</p>
+                <ul class="xp-list">
+                    <li>Refonte HTML/CSS/JS + formulaire de contact avec validation.</li>
+                    <li>Catalogue services + carrousel photo, optimisation SEO locale.</li>
+                    <li>Déploiement démo sur stack locale (Apache/PHP) pour revue client.</li>
+                </ul>
+                <div class="xp-techs">
+                    <span class="chip">HTML</span>
+                    <span class="chip">CSS</span>
+                    <span class="chip">JavaScript</span>
+                    <span class="chip">PHP</span>
+                </div>
+                <div class="xp-actions">
+                    <a class="card-link" href="ASM.pdf">Voir l'attestion de stage </a>
+                </div>
+            </article>
+
+            <article class="experience-card">
+                <div class="experience-header">
+                    <div>
+                        <p class="xp-role">Maintenance et analyse de données</p>
+                        <h3>DE DAMAS A BAYROUT</h3>
+                    </div>
+                    <div class="xp-duration">1 mois • 2026</div>
+                </div>
+                <p class="xp-context">Maintenace de site web existant et analyse de données.</p>
+                <ul class="xp-list">
+                    <li>Coreection de bugs et amélioration des performances.</li>
+                    <li>Analyse les données relier a la vente .</li>
+                    
+                </ul>
+                <div class="xp-techs">
+                    <span class="chip">POWER BI</span>
+                    <span class="chip">HTML CSS</span>
+                    <span class="chip">MySql</span>
+                    <span class="chip">PHP</span>
+                </div>
+                <div class="xp-actions">
+                    <a class="card-link" href="Stage mhenna .pdf">Voir l'attestion de stage </a>
+                </div>
+            </article>
+
+           
+            
+        </div>
+    </div>
+</section>
+
+
+    <!-- Competences Section -->
+   <section id="competences">
+    <div class="titre">
+        <h1>Mes compétences développement</h1>
+        <p class="skills-subtitle">Un socle BTS SIO SLAM complété par des projets web et applicatifs.</p>
+    </div>
+
+    <div class="skills-grid">
+        <div class="skill-card">
+            <div class="skill-icon">HTML</div>
+            <div class="skill-info">
+                <h3>HTML5</h3>
+                <p>Structuration sémantique, SEO de base, accessibilité.</p>
+            </div>
+        </div>
+        <div class="skill-card">
+            <div class="skill-icon">CSS</div>
+            <div class="skill-info">
+                <h3>CSS3</h3>
+                <p>Grilles flex/grid, responsive, animations légères.</p>
+            </div>
+        </div>
+        <div class="skill-card">
+            <div class="skill-icon">JS</div>
+            <div class="skill-info">
+                <h3>JavaScript</h3>
+                <p>DOM, appels API, composants réutilisables.</p>
+            </div>
+        </div>
+        <div class="skill-card">
+            <div class="skill-icon">PY</div>
+            <div class="skill-info">
+                <h3>Python</h3>
+                <p>Scripts, automation, bases IA/ML et data.</p>
+            </div>
+        </div>
+        <div class="skill-card">
+            <div class="skill-icon">PHP</div>
+            <div class="skill-info">
+                <h3>PHP</h3>
+                <p>Pages dynamiques, formulaires, logique serveur.</p>
+            </div>
+        </div>
+        <div class="skill-card">
+            <div class="skill-icon">SQL</div>
+            <div class="skill-info">
+                <h3>SQL</h3>
+                <p>CRUD, jointures, modèles relationnels simples.</p>
+            </div>
+        </div>
+        <div class="skill-card">
+            <div class="skill-icon">C#</div>
+            <div class="skill-info">
+                <h3>C#</h3>
+                <p>Apps desktop/mobile (bases), logique métier.</p>
+            </div>
+        </div>
+        <div class="skill-card">
+            <div class="skill-icon">PBI</div>
+            <div class="skill-info">
+                <h3>Power BI</h3>
+                <p>Visualisation de données, tableaux de bord interactifs, DAX, transformation avec Power Query.</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+    <!-- Projets Section -->
+    <section id="projets">
+        <div class="container">
+            <h2 class="section-title">Mes Projets</h2>
+            <div class="grid-container">
+                <div class="card">
+                    <a href="http://localhost/site garage"><img src="./site.jpg" alt="Projet — Site Garage full service"></a>
+                    <h3>Site vitrine / pro</h3>
+                    <p>Création de sites web responsive avec HTML, CSS,PHP, et JavaScript.</p>
+                    <div class="card-actions">
+                        <a class="card-link" href="http://localhost/site garage">Voir le projet</a>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="appli.jpg" alt="Projet — Application (C#)">
+                    <h3>Application (C#)</h3>
+                    <p>Développement d'applications mobiles avec C#</p>
+                </div>
+                <div class="card">
+                    <img src="face.jpg" alt="Projet — UX/UI">
+                    <h3>Design UX/UI</h3>
+                    <p>Création d'interfaces utilisateurs modernes et ergonomiques.</p>
+                </div>
+                <div class="card">
+                    <a href="http://localhost/projet1"><img src="commerce.jpg" alt="Projet — Site e-commerce"></a>
+                    <h3>Site E-commerce</h3>
+                    <p>Création d'un site e-commerce avec une expérience utilisateur optimisée.</p>
+                    <div class="card-actions">
+                        <a class="card-link" href="http://localhost/projet1">Voir le projet</a>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="Jeux.png" alt="Projet — Jeux (Tetris / Flappy Bird)">
+
+                    <h3>Jeux vidéos</h3>
+                    <p>Creation de jeux vidéos</p>
+                    <div class="card-actions">
+                        <a class="card-link" href="http://localhost/projet2">Tetris</a>
+                        <a class="card-link" href="http://localhost/flappybird">Flappy Bird</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+     <!-- Veille Technologique -->
+    <section id="veille">
+        <div class="container">
+            <h1>Robotique : innovations récentes</h1>
+            <p>La robotique combine mécatronique, IA et vision pour automatiser des tâches complexes tout en restant sûre et fiable.</p>
+            <p>Une avancée marquante : les robots humanoïdes collaboratifs de nouvelle génération, capables de manipuler des objets fragiles grâce à des capteurs tactiles souples et du contrôle assisté par IA. Ils ouvrent la voie à des usages en logistique fine, aide aux personnes et maintenance en environnements risqués.</p>
+            <img class="po" src="./robot.jpg" alt="Robot collaboratif" style="width:50%;">
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+<section id="contact" class="con">
+    <div class="contact-inner">
+        <h1 class="a">Contact</h1>
+        <p class="b">Envoyez-moi un message :</p>
+        <form id="contact-form" class="c">
+            <input class="d" type="text" name="user_name" placeholder="Nom" required>
+            <input class="e" type="email" name="user_email" id="user_email" placeholder="Email" required>
+            <textarea class="f" name="message" placeholder="Votre message" required></textarea>
+            <button class="g" type="submit">Envoyer</button>
+        </form>
+        <div class="loader" id="loader"></div>
+        <div class="message-box" id="msg-box"></div>
+    </div>
+</section>
+
+<!-- EmailJS SDK -->
+<script src="https://cdn.emailjs.com/dist/email.min.js"></script>
+<script>
+    (function () {
+        emailjs.init("PL4pN3b36--NHaCER");
+    })();
+
+    function isValidEmailDomain(email) {
+        const regex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+        if (!regex.test(email)) return false;
+
+        const domain = email.split('@')[1].toLowerCase();
+        const knownDomains = [
+            'gmail.com', 'yahoo.com', 'outlook.com',
+            'hotmail.fr', 'wanadoo.fr', 'orange.fr',
+            'laposte.net', 'free.fr', 'sfr.fr'
+        ];
+        return knownDomains.includes(domain);
+    }
+
+    document.getElementById('contact-form').addEventListener('submit', function (event) {
+        event.preventDefault();
+
+        const loader = document.getElementById('loader');
+        const msgBox = document.getElementById('msg-box');
+        const email = document.getElementById('user_email').value;
+
+        msgBox.style.display = 'none';
+
+        if (!isValidEmailDomain(email)) {
+            msgBox.innerText = 'Veuillez entrer une adresse email valide (ex. gmail.com, yahoo.com, etc).';
+            msgBox.className = 'message-box error';
+            msgBox.style.display = 'block';
+            return;
+        }
+
+        loader.style.display = 'block';
+
+        emailjs.sendForm('service_hhlf79b', 'template_krudjae', this)
+            .then(function () {
+                loader.style.display = 'none';
+                msgBox.innerText = 'Message envoyé avec succès !';
+                msgBox.className = 'message-box success';
+                msgBox.style.display = 'block';
+                document.getElementById('contact-form').reset();
+            }, function (error) {
+                loader.style.display = 'none';
+                msgBox.innerText = 'Erreur lors de l\'envoi. Veuillez réessayer.';
+                msgBox.className = 'message-box error';
+                msgBox.style.display = 'block';
+            });
+    });
+</script>
+
+
+    <!-- Footer -->
+    <footer class="footer">
+        <p>&copy; 2025 Portfolio - SAADI M'henna</p>
+    </footer>
+
+    </main>
+    
+</body>
+</html>
